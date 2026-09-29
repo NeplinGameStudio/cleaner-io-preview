@@ -1,0 +1,29 @@
+input:focus {
+	outline: none;
+}
+
+#myTextbox {
+	background-color: transparent;
+	border: none;
+	text-align: center;
+
+	color: #ffffff;
+	font-size: 25px !important;
+	font-weight: 700;
+
+	width: 100%;
+	height: 100%;
+
+	caret-color: #ffffff;
+}
+
+#myTextbox::placeholder,
+#myTextbox::-webkit-input-placeholder,
+#myTextbox::-moz-placeholder,
+#myTextbox:-ms-input-placeholder,
+#myTextbox::-ms-input-placeholder {
+	color: #d9e8ff;
+	font-size: 25px !important;
+	font-weight: 700;
+	opacity: 1;
+}
